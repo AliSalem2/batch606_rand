@@ -1,3 +1,4 @@
+from typing import Mapping
 import numpy as np
 from random import choice
 
@@ -14,4 +15,6 @@ def try_me():
         print (f"{choice(classmates)} is feeling {feeling} today")
         print ("try to motivate them")
         
-try_me()
+
+if __file__ == "__main__":
+    try_me()
